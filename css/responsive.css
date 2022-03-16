@@ -1,0 +1,25 @@
+@media all and (max-width: 1000px) {
+    .contets {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+}
+
+@media all and (max-width: 670px) {
+    .contets {
+      width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .header-right {
+        display: none;
+      }
+      
+      /* Tambahkan CSS untuk menu-icon */
+      .menu-icon {
+        display: block;
+      }
+}

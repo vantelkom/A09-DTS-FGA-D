@@ -1,0 +1,148 @@
+* {
+  font-family: "Helvetica";
+  box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+  }
+
+body {
+    margin: 0;
+  }
+
+header {
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    height: 85px;
+    color: white;
+}
+
+.header-left {
+    height: 50px;
+    padding: 20px 40px;
+    opacity: 0.8;
+    font-size: 32px;
+    float: left;
+    
+}
+
+.header-right {
+    float: right;
+    transition: all 0.5s;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+  
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+  }
+
+
+.header-right:hover {
+    background-color: rgba(46, 40, 40, 0.5);
+}
+.list {
+    transition: all 0.5s;
+    padding : 33px 20px 33px 20px;
+    color: white;
+    display: block;
+    float: left;
+  }
+.list:hover {
+    background-color: rgba(46, 40, 40, 0.5);
+}
+
+/* css main */
+.contents {
+  height: 500px;
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  font-size: 28px;
+  padding-bottom: 15px;
+  margin: 20px 50px;
+}
+
+.section-title img{
+  height: 30px;
+  width: 30px;
+  margin: 5px;
+  margin-right: 10px;
+  float: right;
+}
+
+.contents-item {
+  padding: 10px;
+  float: left;
+  margin-right: -25%;
+  margin-left: 0px;
+  text-align: center;
+  display:block;
+  /* ukuran gambar */
+  width: 750px;
+  height: 1125px;
+}
+
+img:hover {
+  transition-duration: 700ms;
+  box-shadow: 10px 10px gainsboro;
+}
+
+.contents-item p {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.contents-item p1 {
+  font-size: 18px;
+  color: red;
+}
+
+.contents-item img {
+  border-radius: 10px;
+  width: 300px;
+}
+form {
+float: right;
+}
+.search {
+  padding:8px 15px;
+  background:rgba(50, 50, 50, 0.2);
+  border:0px solid #dbdbdb;
+}
+.button {
+  position:relative;
+  padding:6px 15px;
+  left:-8px;
+  border:2px solid rgba(34, 49, 52, 0.9);
+  background-color:rgba(34, 49, 52, 0.9);
+  color:#fafafa;
+}
+.button:hover  {
+  background-color:#fafafa;
+  color:#010202;
+}
+
+footer {
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(34, 49, 52, 0.9);
+  color: white;
+  text-align: center;
+  height: 100px;
+  position: absolute;
+  line-height: 50px;
+  display: block;
+  margin-top: 700px;
+}
+
+.container {
+  font-weight: 700;
+}
